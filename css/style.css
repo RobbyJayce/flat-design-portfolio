@@ -32,7 +32,7 @@ nav {
 
 .hero {
     background-image: url('/img/hero-background.png');
-    background-position: top 0 left -80px;
+    background-position: top 0 left -50px;
     background-repeat: no-repeat;
     background-size: cover;
     height: 60vh;
@@ -57,16 +57,18 @@ nav {
 
 .about {
     background-image: url('/img/about-background.png');
-    background-position: top 0 left -40px;
+    background-position: top 0 right 70px;
     background-repeat: no-repeat;
     background-size: cover;
     height: 60vh;
+    padding: 70px 0 0 0;
 }
 
 .about__title {
     font-family: var(--fnt-mt);
     font-size: var(--fnt-xl);
     text-align: center;
+    line-height: 0.7em;
 }
 
 .about__txt {
