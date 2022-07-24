@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Poppins:wght@400;500;600;700&display=swap');
+
+:root {
+    --fnt-mt: 'Montserrat', sans-serif;
+    --fnt-pop: 'Poppins', sans-serif;
+}
+
+body {
+    background: darkgray;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+main {
+    background-image: url('/img/hero-background.png');
+    background-position: top 0 left -80px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 60vh;
+}
+
+/* NAV */
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 15px;
+}
+
+.nav__logo {
+    width: clamp(7rem, 1.875rem + 6.25vw, 14rem);
+}
+
+#nav__bars {
+    font-size: 4em;
+}
+
+.hero__lt-con {
+    text-align: center;
+}
+
+.hero__rt-con {
+    text-align: justify;
+    padding: 20px;
+}
+
+.hero__txt {
+    font-family: var(--fnt-pop);
+    font-size: 1.5em;
+}
+
+.hero__title {
+    font-family: var(--fnt-mt);
+    font-size: 7em;
+}
