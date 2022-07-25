@@ -385,14 +385,12 @@ nav {
         flex-direction: row;
     }
     .hero__txt  {
-        flex: 1;
+        margin-left: 80px;
     }
-    .hero__title {
-        flex: 2;
+    .hero__title, .hero__txt-con {
+     flex: 1;
     }
-    .about__title, .about__txt {
-        max-width: 30%;
-    }
+
     .about {
         background-position: top 0 left 100px;
     }
