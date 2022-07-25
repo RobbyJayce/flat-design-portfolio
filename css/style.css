@@ -33,12 +33,16 @@ nav {
 /* hero */
 
 .hero {
+    align-items: flex-start;
     background-image: url('/img/hero-background.png');
     background-position: top 0 left -50px;
     background-repeat: no-repeat;
     background-size: cover;
+    display: flex;
+    flex-direction: column;
     height: 60vh;
     margin-block: 50px;
+    padding: 20px;
 }
 
 .hero__title {
@@ -57,12 +61,16 @@ nav {
 /* about me */
 
 .about {
+    align-items: flex-start;
     background-image: url('/img/about-background.png');
     background-position: top 0 right 70px;
     background-repeat: no-repeat;
     background-size: cover;
+    display: flex;
+    flex-direction: column;
     height: 60vh;
     padding-top: 70px;
+    padding: 20px;
 }
 
 .about__title {
@@ -82,13 +90,15 @@ nav {
 /* education */
 
 .education {
+    align-items: flex-start;
     background-image: url('/img/education-background.png');
     background-position: bottom -100px right 0;
     background-repeat: no-repeat;
     background-size: cover;
+    display: flex;
+    flex-direction: column;
     font-family: var(--fnt-mt);
     height: 60vh;
-    padding-top: 70px;
     padding: 20px;
 }
 
@@ -125,14 +135,16 @@ nav {
 /* skills */
 
 .skills {
+    align-items: flex-start;
     background-image: url('/img/about-background.png');
     background-position: bottom -100px left 0;
     background-repeat: no-repeat;
     background-size: cover;
+    display: flex;
+    flex-direction: column;
     font-family: var(--fnt-mt);
     height: 60vh;
-    padding-top: 70px;
-    padding: 20px;
+    justify-content: center;
     padding: 20px;
 }
 
@@ -163,6 +175,7 @@ nav {
 }
 
 /* progress bar */
+
 .progress__bar {
     background: #bcbbbb;
     border-radius: 3px;
@@ -179,3 +192,4 @@ nav {
     position: absolute;
     width: 90%;
 }
+
