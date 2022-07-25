@@ -41,7 +41,7 @@ nav {
     display: flex;
     flex-direction: column;
     height: 60vh;
-    margin-block: 50px;
+    margin-block: 70px 50px;
     padding: 20px;
 }
 
