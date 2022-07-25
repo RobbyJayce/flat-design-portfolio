@@ -328,3 +328,50 @@ nav {
     margin-left: 15px;
     margin-block: 10px;
 }
+
+/* footer */
+
+.footer-main {
+    align-items: flex-start;
+    background-image: url('/img/footer-background.png');
+    background-position: bottom -50px right -50px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    font-family: var(--fnt-mt);
+    height: 40vh;
+    justify-content: center;
+    padding-top: 50px;
+    padding: 20px;
+}
+
+.footer__title {
+    font-size: 2.5em;
+    font-weight: 500;
+}
+
+.footer__sub-title {
+    font-size: var(--fnt-md);
+    font-weight: 700;
+}
+
+.footer__email {
+    font-size: 1.7em;
+    font-weight: 600;
+}
+
+.footer__logo {
+    width: clamp(7rem, 1.875rem + 6.25vw, 14rem);
+}
+
+.footer__line {
+    background: black;
+    border: none;
+    height: 1px;
+    margin-bottom: 15px;
+    margin-top: 20px;
+    max-width: 70%;
+    outline: none;
+    width: 50%;
+}
