@@ -36,12 +36,12 @@ nav {
 .hero {
     align-items: flex-start;
     background-image: url('/img/hero-background.png');
-    background-position: top 0 left -50px;
+    background-position: center top;
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
     flex-direction: column;
-    height: 60vh;
+    height: 100vh;
     margin-block: 70px 50px;
     padding: 20px;
 }
@@ -64,12 +64,12 @@ nav {
 .about {
     align-items: flex-start;
     background-image: url('/img/about-background.png');
-    background-position: top 0 right 70px;
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
     flex-direction: column;
-    height: 60vh;
+    height: 100vh;
     padding-top: 70px;
     padding: 20px;
 }
@@ -93,13 +93,13 @@ nav {
 .education {
     align-items: flex-start;
     background-image: url('/img/education-background.png');
-    background-position: bottom -100px right 0;
+    background-position: center left 0;
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
     flex-direction: column;
     font-family: var(--fnt-mt);
-    height: 60vh;
+    height: 100vh;
     padding: 20px;
 }
 
@@ -138,13 +138,13 @@ nav {
 .skills {
     align-items: flex-start;
     background-image: url('/img/about-background.png');
-    background-position: bottom -100px left 0;
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
     flex-direction: column;
     font-family: var(--fnt-mt);
-    height: 60vh;
+    height: 100vh;
     justify-content: center;
     padding: 20px;
 }
@@ -198,11 +198,11 @@ nav {
 
 .experience {
     background-image: url('/img/experience-background.png');
-    background-position: center;
+    background-position: center right;
     background-repeat: no-repeat;
     background-size: cover;
     font-family: var(--fnt-mt);
-    height: 100%;
+    height: 100vh;
     margin-top: 80px;
     padding: 20px;
 }
@@ -236,7 +236,7 @@ nav {
     background-repeat: no-repeat;
     background-size: cover;
     font-family: var(--fnt-mt);
-    height: 100%;
+    height: 100vh;
     margin-top: 50px;
     padding: 20px;
 }
@@ -270,7 +270,7 @@ nav {
     background-repeat: no-repeat;
     background-size: cover;
     font-family: var(--fnt-mt);
-    height: 100%;
+    height: 100vh;
     margin-top: 50px;
     padding: 20px;
 }
@@ -303,7 +303,7 @@ nav {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100%;
+    height: 30vh;
     margin-top: 50px;
     padding: 20px;
 }
@@ -335,13 +335,13 @@ nav {
 .footer-main {
     align-items: flex-start;
     background-image: url('/img/footer-background.png');
-    background-position: bottom -50px right -50px;
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
     flex-direction: column;
     font-family: var(--fnt-mt);
-    height: 40vh;
+    height: 100vh;
     justify-content: center;
     padding-top: 50px;
     padding: 20px;
@@ -391,12 +391,8 @@ nav {
      flex: 1;
     }
 
-    .about {
-        background-position: top 0 left 100px;
-    }
     .education {
         flex-direction: row;
-        background-position: bottom -125px left -150px;
         padding-top: 100px;
     }
     .education__title {
@@ -408,9 +404,6 @@ nav {
     }
     .education__box-con {
         flex: 1;
-    }
-    .skills {
-        background-position: bottom -100px left 120px;
     }
     .skills__con {
         max-width: 50%;
@@ -432,9 +425,6 @@ nav {
     }
     .footer__title {
         font-size: var(--fnt-mdl);
-    }
-    .footer-main {
-        background-position: bottom -100px right -80px;
     }
     .footer__con {
         margin-bottom: 80px;
@@ -466,7 +456,6 @@ nav {
     }
     .about {
         height: 100vh;
-        background-position: top 0 right -170px;
     }
     .about__con {
         display: flex;
@@ -485,7 +474,6 @@ nav {
         height: 100vh;
     }
     .education {
-        background-position: bottom -210px left -230px;
         height: 100vh;
     }
     .education__box {
@@ -502,7 +490,6 @@ nav {
         max-width: 50%;
     }
     .skills {
-        background-position: bottom -160px left 190px;
         height: 100vh;
         justify-content: flex-start;
     }
@@ -650,7 +637,6 @@ nav {
         margin-bottom: 20px;
     }
     .footer-main {
-        background-position: bottom -170px right -150px;
         height: 100vh;
     }
     .footer__title {
