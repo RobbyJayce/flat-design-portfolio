@@ -201,7 +201,7 @@ nav {
     background-repeat: no-repeat;
     background-size: cover;
     font-family: var(--fnt-mt);
-    height: 60vh;
+    height: 100%;
     margin-top: 80px;
     padding: 20px;
 }
@@ -219,8 +219,44 @@ nav {
 .experience__img {
     width: 100%;
     margin-block: 5px;
-<<<<<<< HEAD
 } 
-=======
+
+/* grid */
+
+.grid {
+    display: grid;
 }
->>>>>>> 4759586c4e6ae476fb20dede29616a04212e628d
+
+/* projects */
+
+.projects {
+    background-image: url('/img/projects-background.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: var(--fnt-mt);
+    height: 100%;
+    margin-top: 50px;
+    padding: 20px;
+}
+
+.projects__title {
+    font-size: 2.5em;
+    font-weight: 500;
+}
+
+.projects__sub-title {
+    font-size: var(--fnt-md);
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.projects__txt {
+    font-size: var(--fnt-xsm);
+    margin-block: 15px;
+}
+
+.projects_img {
+    margin-block: 5px;
+    width: 100%;
+}
