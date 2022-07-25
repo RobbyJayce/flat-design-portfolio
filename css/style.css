@@ -260,3 +260,71 @@ nav {
     margin-block: 5px;
     width: 100%;
 }
+
+/* selected works */
+
+.selected-works {
+    background-image: url('/img/selected_works-background.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: var(--fnt-mt);
+    height: 100%;
+    margin-top: 50px;
+    padding: 20px;
+}
+
+.selected__title {
+    font-size: 2.5em;
+    font-weight: 500;
+}
+
+.selected__sub-title {
+    font-size: var(--fnt-md);
+    font-weight: 700;
+}
+
+.selected__txt {
+    font-size: var(--fnt-xsm);
+    margin-block: 15px;
+}
+
+.selected__img {
+    width: 100%;
+    margin-block: 5px;
+}
+
+/* clients */
+
+.clients {
+    font-family: var(--fnt-mt);
+    background-image: url('/img/clients-background.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    margin-top: 50px;
+    padding: 20px;
+}
+
+.clients__title {
+    font-size: var(--fnt-md);
+    font-weight: 700;
+}
+
+.clients__sub-title {
+    font-size: 2.5em;
+    font-weight: 500;
+}
+
+.clients__txt {
+    font-size: var(--fnt-xsm);
+    margin-block: 20px;
+}
+
+.clients__list {
+    list-style-type: disc;
+    font-size: 1.2em;
+    margin-left: 15px;
+    margin-block: 10px;
+}
