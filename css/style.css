@@ -6,6 +6,7 @@
     --fnt-xsm: 1.3em;
     --fnt-sm: 1.5em;
     --fnt-md: 3em;
+    --fnt-mdl: 5em;
     --fnt-xl: 7em;
 }
 
@@ -374,4 +375,72 @@ nav {
     max-width: 70%;
     outline: none;
     width: 50%;
+}
+
+/* Medias */
+
+@media (min-width:600px) {
+    .hero {
+        display: flex;
+        flex-direction: row;
+    }
+    .hero__txt  {
+        flex: 1;
+    }
+    .hero__title {
+        flex: 2;
+    }
+    .about__title, .about__txt {
+        max-width: 30%;
+    }
+    .about {
+        background-position: top 0 left 100px;
+    }
+    .education {
+        flex-direction: row;
+        background-position: bottom -125px left -150px;
+        padding-top: 100px;
+    }
+
+    .education__title {
+        font-size: 4em;
+    }
+
+    .education__container {
+        flex: 1;
+    }
+
+    .education__box-con {
+        flex: 1;
+    }
+    .skills {
+        background-position: bottom -100px left 120px;
+    }
+    .skills__con {
+        max-width: 50%;
+    }
+    .skills__txt {
+        margin-left: 20px;
+    }
+    .skills__title {
+        font-size: var(--fnt-mdl);
+    }
+    .experience__title {
+        font-size: var(--fnt-mdl);
+    }
+    .selected__title {
+        font-size: var(--fnt-mdl);
+    }
+    .clients__title {
+        font-size: var(--fnt-mdl);
+    }
+    .footer__title {
+        font-size: var(--fnt-mdl);
+    }
+    .footer-main {
+        background-position: bottom -100px right -80px;
+    }
+    .footer__con {
+        margin-bottom: 80px;
+    }
 }
